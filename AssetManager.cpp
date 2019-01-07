@@ -1,7 +1,7 @@
 #include "pch.h"
 #include "AssetManager.hpp"
 
-namespace Sonar {
+namespace Game_ {
 	void AssetManager::LoadTexture(std::string name,std::string fileName) {
 		sf::Texture tex;
 		if (tex.loadFromFile(fileName)) {

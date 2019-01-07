@@ -2,7 +2,7 @@
 #include "InputManager.hpp"
 
 
-namespace Sonar {
+namespace Game_ {
 	 
 		bool InputManager::IsSpriteClicked(sf::Sprite object, sf::Mouse::Button button, sf::RenderWindow &window) {
 			if (sf::Mouse::isButtonPressed(button)) {

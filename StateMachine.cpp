@@ -2,7 +2,7 @@
 #include "StateMachine.hpp" 
 #include <stdio.h>
 
-namespace Sonar {
+namespace Game_ {
 
 	void StateMachine::AddState(StateRef newState, bool isReplacing) {
 		this->_isAdding = true;

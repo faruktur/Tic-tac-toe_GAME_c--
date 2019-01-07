@@ -1,33 +1,3 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SFML Tutorial.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  pch.cpp
-  AssetManager.cpp
-  Game.cpp
-  GameOverState.cpp
-  GameState.cpp
-  InputManager.cpp
-c:\users\faruk\source\repos\sfml tutorial\sfml tutorial\inputmanager.cpp(9): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-          and
-          [
-              T=int
-          ]
-c:\users\faruk\source\repos\sfml tutorial\sfml tutorial\inputmanager.cpp(9): warning C4244: 'argument': conversion from 'const T' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-          and
-          [
-              T=int
-          ]
-  MainMenuState.cpp
-c:\users\faruk\source\repos\sfml tutorial\sfml tutorial\mainmenustate.cpp(26): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  PauseState.cpp
   main.cpp
-  SplashState.cpp
-  StateMachine.cpp
-  Generating Code...
   SFML Tutorial.vcxproj -> C:\Users\Faruk\source\repos\SFML Tutorial\Debug\TictactoeGame.exe

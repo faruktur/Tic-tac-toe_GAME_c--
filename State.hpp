@@ -1,5 +1,5 @@
 #pragma once
-namespace Sonar {
+namespace Game_ {
 
 	class State {
 	public:

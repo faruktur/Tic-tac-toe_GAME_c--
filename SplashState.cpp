@@ -5,7 +5,7 @@
 #include "DEFINITIONS.hpp"
 #include "MainMenuState.hpp"
 
-namespace Sonar { 
+namespace Game_ {
 
 	SplashState::SplashState(GameDataRef data) : _data(data) {
 

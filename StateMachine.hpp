@@ -4,7 +4,7 @@
 
 #include "State.hpp"
 
-namespace Sonar {
+namespace Game_ {
 	typedef std::unique_ptr<State> StateRef;
 
 	class StateMachine {

@@ -7,7 +7,7 @@
 #include "PauseState.hpp"
 
  
-namespace Sonar {
+namespace Game_ {
 	GameState::GameState(GameDataRef data) :_data(data) {
 
 	}

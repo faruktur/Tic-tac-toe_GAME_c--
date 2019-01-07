@@ -6,7 +6,7 @@
 #include "MainMenuState.hpp"
 #include <iostream>
 
-namespace Sonar {
+namespace Game_ {
 	GameOverState::GameOverState(GameDataRef data) :_data(data) {
 
 	}

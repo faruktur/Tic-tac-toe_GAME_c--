@@ -4,7 +4,7 @@
 #include "State.hpp"
 #include "Game.hpp"
 
-namespace Sonar {
+namespace Game_ {
 	class MainMenuState :public State {
 	public :
 		MainMenuState(GameDataRef data);

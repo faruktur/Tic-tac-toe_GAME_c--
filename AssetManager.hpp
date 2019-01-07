@@ -2,7 +2,7 @@
 #include <map>
 #include <SFML/Graphics.hpp>
 
-namespace Sonar {
+namespace Game_ {
 	class AssetManager {
 	public :
 		AssetManager(){}

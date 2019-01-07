@@ -6,7 +6,7 @@
 #include "AssetManager.hpp" 
 #include "InputManager.hpp"
 
-namespace Sonar {
+namespace Game_ {
 	struct GameData {
 		StateMachine machine;
 		sf::RenderWindow window;

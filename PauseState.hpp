@@ -5,7 +5,7 @@
 #include "State.hpp"
 #include "Game.hpp"
 
-namespace Sonar {
+namespace Game_ {
 	class PauseState :public State {
 	public:
 		PauseState(GameDataRef data);
