@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Splash_State">
+      <UniqueIdentifier>{8a173f5c-a772-4621-942a-354674771e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Splash_State\fonts">
+      <UniqueIdentifier>{0b41ae59-b32f-49e6-a7a5-4ab6a454b732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Splash_State\res">
+      <UniqueIdentifier>{14246fa4-6479-4611-b9cc-fb52137b2df3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NewFilter1">
+      <UniqueIdentifier>{eb0c6092-ead6-4603-a535-dac2de5708c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="State.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DEFINITIONS.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\..\..\..\Desktop\sfml_c\Code\STATE CREATION\7 - Splash State\Resources\fonts\arial.ttf">
+      <Filter>Header Files\Splash_State\fonts</Filter>
+    </Font>
+    <Font Include="..\..\..\..\Desktop\sfml_c\Code\STATE CREATION\7 - Splash State\Resources\fonts\Marker Felt.ttf">
+      <Filter>Header Files\Splash_State\fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Desktop\sfml_c\Code\STATE CREATION\7 - Splash State\Resources\res\Achievements.png">
+      <Filter>Header Files\Splash_State\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\sfml_c\Code\STATE CREATION\7 - Splash State\Resources\res\Game Title.png">
+      <Filter>Header Files\Splash_State\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\sfml_c\Code\STATE CREATION\7 - Splash State\Resources\res\Grid.png">
+      <Filter>Header Files\Splash_State\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\sfml_c\Code\STATE CREATION\7 - Splash State\Resources\res\Home Button.png">
+      <Filter>Header Files\Splash_State\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\sfml_c\Code\STATE CREATION\7 - Splash State\Resources\res\Main Menu Background.png">
+      <Filter>Header Files\Splash_State\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\sfml_c\Code\STATE CREATION\7 - Splash State\Resources\res\O Win.png">
+      <Filter>Header Files\Splash_State\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\sfml_c\Code\STATE CREATION\7 - Splash State\Resources\res\O.png">
+      <Filter>Header Files\Splash_State\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\sfml_c\Code\STATE CREATION\7 - Splash State\Resources\res\Pause Background.png">
+      <Filter>Header Files\Splash_State\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\sfml_c\Code\STATE CREATION\7 - Splash State\Resources\res\Pause Button.png">
+      <Filter>Header Files\Splash_State\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\sfml_c\Code\STATE CREATION\7 - Splash State\Resources\res\Pause Window.png">
+      <Filter>Header Files\Splash_State\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\sfml_c\Code\STATE CREATION\7 - Splash State\Resources\res\Play Button Outer.png">
+      <Filter>Header Files\Splash_State\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\sfml_c\Code\STATE CREATION\7 - Splash State\Resources\res\Play Button.png">
+      <Filter>Header Files\Splash_State\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\sfml_c\Code\STATE CREATION\7 - Splash State\Resources\res\Resume Button.png">
+      <Filter>Header Files\Splash_State\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\sfml_c\Code\STATE CREATION\7 - Splash State\Resources\res\Retry Button.png">
+      <Filter>Header Files\Splash_State\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\sfml_c\Code\STATE CREATION\7 - Splash State\Resources\res\Sound Off.png">
+      <Filter>Header Files\Splash_State\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\sfml_c\Code\STATE CREATION\7 - Splash State\Resources\res\Sound On.png">
+      <Filter>Header Files\Splash_State\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\sfml_c\Code\STATE CREATION\7 - Splash State\Resources\res\Splash Background.png">
+      <Filter>Header Files\Splash_State\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\sfml_c\Code\STATE CREATION\7 - Splash State\Resources\res\X Win.png">
+      <Filter>Header Files\Splash_State\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\sfml_c\Code\STATE CREATION\7 - Splash State\Resources\res\X.png">
+      <Filter>Header Files\Splash_State\res</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

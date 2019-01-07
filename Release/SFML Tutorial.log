@@ -1,0 +1,31 @@
+﻿  pch.cpp
+  AssetManager.cpp
+  Game.cpp
+  InputManager.cpp
+c:\users\faruk\source\repos\sfml tutorial\sfml tutorial\inputmanager.cpp(9): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+c:\users\faruk\source\repos\sfml tutorial\sfml tutorial\inputmanager.cpp(9): warning C4244: 'argument': conversion from 'const T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+  MainMenuState.cpp
+c:\users\faruk\source\repos\sfml tutorial\sfml tutorial\mainmenustate.cpp(26): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+  SplashState.cpp
+  StateMachine.cpp
+  Generating code
+  All 454 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  SFML Tutorial.vcxproj -> C:\Users\Faruk\source\repos\SFML Tutorial\Release\SFML Tutorial.exe
